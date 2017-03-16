@@ -1,5 +1,21 @@
 #!/bin/bash
 
+BASENAME=/usr/bin/basename
+WHOAMI=/usr/bin/whoami
+REALPATH=/usr/bin/realpath
+CURL=/usr/bin/curl
+CHMOD=/bin/chmod
+CP=/bin/cp
+RM=/bin/rm
+GREP=/bin/grep
+JOURNALCTL=/bin/journalctl
+SYSTEMCTL=/bin/systemctl
+SUDO=/usr/bin/sudo
+WHICH=/usr/bin/which
+AWK=/usr/bin/awk
+XARGS=/usr/bin/xargs
+
+
 debug() {
   (( $DEBUG )) && echo "$(basename $0): DEBUG:" "$@"
 }
